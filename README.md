@@ -1,8 +1,8 @@
 # cinema-tickets
 
-This is in response to an exercise, based on [this requirement](./requirement.md).
-The principles are the same (TDD, DI, mocks, clean code etc). 
-It's been really good to try out javascript again.
+This is my answer to the exercise, based on [this requirement](./requirement.md).
+The principles are the same (Test Driven Development, mockup, clean code etc). 
+
 
 - Prerequesites
   Node.JS (latest will do. I am using 22.10.0)
@@ -18,8 +18,9 @@ It's been really good to try out javascript again.
  `node index`
 
 Libraries and things used:
+- jest
+- jest extended
 - prettier
 - eslint
-- jest and jest extended
+- mocha
 - inquirer/prompt (for the demo code)
-
